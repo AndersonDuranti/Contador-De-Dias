@@ -1,0 +1,136 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  /* Container principal */
+  .container {
+    text-align: center;
+  }
+  
+  /* Título */
+  .title {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffec00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  /* Contagem regressiva */
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Timer individual */
+  .timer {
+    font-size: 16px;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .timer:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Placa de contagem regressiva */
+  .plate {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Alterando a cor dos segundos para amarelo */
+  #seconds {
+    color: #ffec00;
+  }
+
+  /* Estilos existentes */
+
+/* Timer individual */
+.timer {
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Placa de contagem regressiva */
+  .plate {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent; /* Fundo transparente */
+    color: #fff;
+  }
+  
+  /* Alterando a cor dos segundos para amarelo */
+  #seconds {
+    color: #ffec00;
+  }
+  
+  /* Estilos existentes */
+
+/* Título */
+.title {
+    font-size: 36px; /* Aumentando o tamanho do título */
+    text-transform: uppercase;
+    color: #ffec00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  /* Timer individual */
+  .timer {
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Placa de contagem regressiva */
+  .plate {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  /* Alterando a cor dos segundos para amarelo */
+  #seconds {
+    color: #ffec00;
+  }
+
+  /* Texto #15zou */
+.additional-text {
+    text-align: center;
+    margin-top: 20px; /* Ajusta o espaçamento do topo */
+  }
+  
+  .additional-text p {
+    font-size: 24px; /* Aumenta o tamanho da fonte */
+    text-decoration: underline; /* Adiciona sublinhado */
+    color: #fff; /* Cor branca */
+  }
